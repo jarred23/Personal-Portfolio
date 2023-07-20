@@ -283,6 +283,18 @@
     display: block;
 }
 
+/*--------------------------------------------------------------
+# still text and type writer effect text
+--------------------------------------------------------------*/
+
+.main {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: larger;
+}
 
 
 /*--------------------------------------------------------------
@@ -313,3 +325,5 @@
 body {
     min-height: 100vh;
 }
+
+
